@@ -14,6 +14,8 @@
 		C8C849161AF4811C000FA48C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C849151AF4811C000FA48C /* Images.xcassets */; };
 		C8C849191AF4811C000FA48C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C849171AF4811C000FA48C /* LaunchScreen.xib */; };
 		C8C849251AF4811C000FA48C /* ALUICollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C849241AF4811C000FA48C /* ALUICollectionViewTests.m */; };
+		C8C8492F1AF481A8000FA48C /* CollectionCustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8C8492E1AF481A8000FA48C /* CollectionCustomCell.xib */; };
+		C8C849311AF482A1000FA48C /* demoImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8C849301AF482A1000FA48C /* demoImg.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		C8C8491E1AF4811C000FA48C /* ALUICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALUICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C849231AF4811C000FA48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C849241AF4811C000FA48C /* ALUICollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALUICollectionViewTests.m; sourceTree = "<group>"; };
+		C8C8492E1AF481A8000FA48C /* CollectionCustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionCustomCell.xib; sourceTree = "<group>"; };
+		C8C849301AF482A1000FA48C /* demoImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demoImg.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		C8C848FC1AF4811C000FA48C = {
 			isa = PBXGroup;
 			children = (
+				C8C849301AF482A1000FA48C /* demoImg.jpg */,
+				C8C8492E1AF481A8000FA48C /* CollectionCustomCell.xib */,
 				C8C849071AF4811C000FA48C /* ALUICollectionView */,
 				C8C849211AF4811C000FA48C /* ALUICollectionViewTests */,
 				C8C849061AF4811C000FA48C /* Products */,
@@ -199,6 +205,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8C8492F1AF481A8000FA48C /* CollectionCustomCell.xib in Resources */,
+				C8C849311AF482A1000FA48C /* demoImg.jpg in Resources */,
 				C8C849141AF4811C000FA48C /* Main.storyboard in Resources */,
 				C8C849191AF4811C000FA48C /* LaunchScreen.xib in Resources */,
 				C8C849161AF4811C000FA48C /* Images.xcassets in Resources */,
